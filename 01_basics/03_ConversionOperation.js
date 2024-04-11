@@ -77,10 +77,16 @@ console.log(gameCounter);
 // const str = "Hello " + "World";
 // console.log(str);
 
+
+
+// ------------------------ Most Imp. --------------------------
 //* Type coercion is the automatic conversion of "values" from one data type to another.
 //? It is a fundamental part of JavaScript and can be used to make code more readable and efficient.
 //? There are two types of coercion in JavaScript: implicit and explicit. Implicit coercion happens automatically, while explicit coercion is done manually by the programmer.
 //! It's worth noting that type coercion can lead to unexpected results, so it's essential to be aware of how JavaScript handles these situations.
+// ----------------------------------------------------------------
+
+
 
 // let sum = "5" + 10;
 // console.log(sum);

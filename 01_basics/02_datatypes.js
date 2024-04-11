@@ -1,4 +1,4 @@
-//* Data types define the type of values that a variable can hold.
+//* Data types define the type of values that a letiable can hold.
 
 "use strict"; //treat all JS code as newer versions.
 
@@ -41,28 +41,28 @@ Data Types ==> 1. Primitive ==>
 
 //? Number: Represents numeric values, including integers and floating-point numbers.
 // Example:
-// var myFavNum = -5;
+// let myFavNum = -5;
 // console.log(myFavNum);
 
 //? String: Represents a sequence of characters enclosed in single or double quotes.
 // Example:
-// var myName = 'vinod';
+// let myName = 'vinod';
 // console.log(myName);
 
 //? Boolean: Represents a logical entity with two values: true or false.
 // Example:
-// var isRaining = false;
-// var areYouAwesome = true;
+// let isRaining = false;
+// let areYouAwesome = true;
 // console.log(isRaining);
 
-//? undefined: Represents the absence of a value or an uninitialized variable.
+//? undefined: Represents the absence of a value or an uninitialized letiable.
 // Example:
-// var vinod;
+// let vinod;
 // console.log(vinod);
 
-//? Null: Represents the absence of a value. It is often used to explicitly indicate that a variable or object property has no assigned value.
+//? Null: Represents the absence of a value. It is often used to explicitly indicate that a letiable or object property has no assigned value.
 // Example:
-// var badMemories = null;
+// let badMemories = null;
 // console.log(badMemories);
 
 //? BigInt: Represents integers of arbitrary precision (available since ECMAScript 2020).
@@ -72,7 +72,6 @@ Data Types ==> 1. Primitive ==>
 //? Symbol: Represents a unique and immutable data type, often used to create unique identifiers.
 // Example:
 // const mySymbol = Symbol("description");
-
 
 
 */

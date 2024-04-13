@@ -78,3 +78,30 @@ Languages like Java, C++, and TypeScript are statically typed, and they require 
 
 
 */
+
+
+
+
+
+// ----------------------------------------------------------------------
+// Stack Memory(Primitive), HeapMemory(Non-Primitive).
+
+let myName = "divyansh garg";
+let anotherName = myName;
+anotherName = "dgarg";                                                       // myName doesn't change, it is in stack memory.
+
+console.log(myName);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;                                           //Both change because refers to same object and it is stored in heap memory.
+userTwo.email = "divyansh@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+

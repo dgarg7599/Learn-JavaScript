@@ -66,9 +66,9 @@ Languages like Java, C++, and TypeScript are statically typed, and they require 
 
 
 
-/*
 
----------- Some Questions ---------------
+
+// ---------- Some Questions ---------------
 
 // console.log(typeof ("5" - 3));                         //output: number
 
@@ -77,7 +77,6 @@ Languages like Java, C++, and TypeScript are statically typed, and they require 
 // console.log("20" + 10 + 10);              //output: 201010      (string + number gives string).
 
 
-*/
 
 
 

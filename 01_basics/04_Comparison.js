@@ -27,7 +27,6 @@ console.log("2" === 2);
 
 
 
-/*
 
 //! What is the difference between == and === operators in JavaScript❓
 //? The equality == operator is a comparison operator that compares two values and returns true if they are equal. The strict equality === operator is also a comparison operator, but it compares two values and returns true only if they are equal and of the same type.
@@ -40,5 +39,3 @@ console.log("2" === 2);
 // } else {
 //   console.log("not equal");
 // }
-
-*/

@@ -182,15 +182,18 @@ console.log(result);
 //* =========================================
 //! What is the output for the following code?
 
-// let text = "Hello JavaScript, welcome to our world best JavaScript course";
-// let result = text.slice(1);
-// let result = text.replace("H", "");
-// let result = text.substring(1);
+let str1 = "Hello JavaScript, welcome to our world best JavaScript course";
+let result1 = str1.slice(1);
+let result2 = str1.replace("H", "");
+let result3 = str1.substring(1);
 //? Optional
 // let result = text.replace("JavaScript", "Divyansh");
 // let result = text.replaceAll("JavaScript", "Divyansh");
 
-// console.log(result);
+console.log(result1);
+console.log(result2);
+console.log(result3);
+
 
 //* =========================================
 //* Extracting String Characters

@@ -21,3 +21,19 @@ console.log("using exponentiation operator", base ** exponent);
 //! calculates the area of a circle with a radius of 5 units.
 // let area = Math.PI * 5 ** 2;
 // console.log(area.toFixed(2));
+
+
+
+
+//* ==============================
+//*    Array.includes()
+//* ===============================
+
+
+//? The includes method checks whether an array includes a certain element, returning true or false.
+// Syntax
+// includes(searchElement);
+// includes(searchElement, fromIndex);
+const numbers = [1, 2, 3, 6, 4, 5, 6, 7, 8, 9];
+const result = numbers.includes(5);
+console.log(result);

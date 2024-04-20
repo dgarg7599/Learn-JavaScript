@@ -15,7 +15,7 @@ const hundreds = 1000000
 console.log(hundreds.toLocaleString()); 
 console.log(hundreds.toLocaleString('en-IN'));                                  //numbers are come with commas in output
 
-// +++++++++++++ Maths +++++++++++++++++++++++++++++
+//! ------------------------------------ Maths --------------------------------------
 //* Math Object in JavaScript
 //* Math: The Math namespace object contains static properties and methods for mathematical constants and functions.
 //* Math works with the Number type. It doesn't work with BigInt.
@@ -30,21 +30,13 @@ console.log(Math.min(4, 3, 6, 8));
 console.log(Math.max(4, 3, 6, 8));
 
 console.log(Math.random());                                  //returns a random number between 0 (inclusive), and 1 (exclusive)
-console.log((Math.random()*10) + 1);
+console.log((Math.random()*10) + 1);                       // add 1 to avoid 0.
 console.log(Math.floor(Math.random()*10) + 1);
 
 const min = 10
 const max = 20
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min)
-
-
-
-//todo Notes:
-// No matter how many chars are there after decimal, they all will always return only number before the decimal.
-// round rounds to the nearest integer.
-// floor always rounds down.
-// ceil always rounds up.
 
 
 //? Math.trunc(x): Returns the integer part of x:
@@ -56,3 +48,11 @@ console.log(Math.floor(Math.random() * (max - min + 1)) + min)
 // const floorValue = Math.floor(-3.1);
 // console.log(truncValue);
 // console.log(floorValue);
+
+
+
+//todo Notes:
+// No matter how many chars are there after decimal, they all will always return only number before the decimal.
+// round rounds to the nearest integer.
+// floor always rounds down.
+// ceil always rounds up.
